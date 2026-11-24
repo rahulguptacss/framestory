@@ -1,0 +1,426 @@
+{
+  "common": {
+    "Header": {
+      "logo_image": "/img/logo/logo.png",
+      "logo_alt": "FrameStory Photography",
+      "logo_title_dark": "Frame",
+      "logo_title_gold": "Story",
+      "logo_sub": "P H O T O G R A P H Y",
+      "links": [
+        {
+          "name": "Home",
+          "href": "#home"
+        },
+        {
+          "name": "About Us",
+          "href": "#about"
+        },
+        {
+          "name": "Service",
+          "href": "#services"
+        },
+        {
+          "name": "Portfolio",
+          "href": "#portfolio"
+        },
+        {
+          "name": "Testimonial",
+          "href": "#testimonials"
+        },
+        {
+          "name": "Faq",
+          "href": "#faq"
+        }
+      ],
+      "button_text": "Contact",
+      "button_href": "#contact",
+      "button_icon": "mail"
+    },
+    "Footer": {
+      "logo_image": "/img/logo/logo.png",
+      "logo_alt": "FrameStory Photography",
+      "logo_href": "#home",
+      "logo_title_dark": "Frame",
+      "logo_title_gold": "Story",
+      "logo_sub": "P H O T O G R A P H Y",
+      "brand_name": "FrameStory",
+      "brand_title_dark": "Frame",
+      "brand_title_gold": "Story",
+      "brand_sub": "P H O T O G R A P H Y",
+      "description": "We create timeless memories with professional photography and videography services for your special moments.",
+      "socials": [
+        {
+          "name": "Facebook",
+          "href": "https://facebook.com"
+        },
+        {
+          "name": "Instagram",
+          "href": "https://instagram.com"
+        },
+        {
+          "name": "YouTube",
+          "href": "https://youtube.com"
+        },
+        {
+          "name": "LinkedIn",
+          "href": "https://linkedin.com"
+        }
+      ],
+      "links": [
+        {
+          "name": "Home",
+          "href": "#home"
+        },
+        {
+          "name": "About Us",
+          "href": "#about"
+        },
+        {
+          "name": "Service",
+          "href": "#services"
+        },
+        {
+          "name": "Portfolio",
+          "href": "#portfolio"
+        },
+        {
+          "name": "Testimonial",
+          "href": "#testimonials"
+        },
+        {
+          "name": "Faq",
+          "href": "#faq"
+        }
+      ],
+      "separator": "|",
+      "copyright": "Copyright © 2026. All rights reserved. Powered by Lestow",
+      "copyright_highlight": "Lestow"
+    },
+    "BackToTop": {
+      "aria_label": "Back to top"
+    }
+  },
+  "categories": {
+    "Photography": {
+      "templateComponents": {
+        "template-1": {
+          "pages": {
+            "home": {
+              "title": "FrameStory - Professional Photography Portfolio",
+              "metadata": {
+                "title": "FrameStory | Capturing Life's Beautiful Moments",
+                "description": "From weddings to portraits, events to travel shoots — turning your special moments into timeless memories."
+              },
+              "components": [
+                {
+                  "key": "hero",
+                  "component": "Hero"
+                },
+                {
+                  "key": "about",
+                  "component": "About"
+                },
+                {
+                  "key": "services",
+                  "component": "Services"
+                },
+                {
+                  "key": "portfolio",
+                  "component": "Portfolio"
+                },
+                {
+                  "key": "testimonials",
+                  "component": "Testimonials"
+                },
+                {
+                  "key": "faq",
+                  "component": "Faq"
+                },
+                {
+                  "key": "contact",
+                  "component": "Contact"
+                }
+              ]
+            }
+          },
+          "sections": {
+            "hero": {
+              "id": "home",
+              "eyebrow": "PROFESSIONAL PHOTOGRAPHER",
+              "title_line1": "Capturing",
+              "title_line2": "Life's Beautiful",
+              "title_line3": "Moments",
+              "title_start": "Capturing",
+              "title_highlight": "Life's Beautiful",
+              "title_end": "Moments",
+              "description": "From weddings to portraits, events to brand shoots — I turn your special moments into timeless memories.",
+              "description_line1": "From weddings to portraits, events to brand shoots —",
+              "description_line2": "I turn your special moments into timeless memories.",
+              "photographer_image": "/img/hero/photographer.webp",
+              "polaroid_image": "/img/hero/landscape.webp",
+              "background_image": "/img/hero/hero-bg.webp"
+            },
+            "about": {
+              "id": "about",
+              "title_start": "About",
+              "title_highlight": "Us",
+              "description": "We are a creative photography studio dedicated to capturing real emotions, meaningful moments, and timeless stories. With a passion for visual storytelling, we turn everyday moments into beautiful memories that last a lifetime.",
+              "signature_name": "John Phillips",
+              "signature_image": "/img/about/signature.webp",
+              "stats": [
+                {
+                  "value": "8+",
+                  "label": "Years of Experience",
+                  "icon": "camera"
+                },
+                {
+                  "value": "500+",
+                  "label": "Photoshoots",
+                  "icon": "image"
+                },
+                {
+                  "value": "300+",
+                  "label": "Happy Clients",
+                  "icon": "users"
+                }
+              ]
+            },
+            "services": {
+              "id": "services",
+              "title_start": "Our",
+              "title_highlight": "Services",
+              "subtitle": "Professional photography services to capture your special moments with creativity and perfection.",
+              "items": [
+                {
+                  "id": 1,
+                  "title": "Wedding Photography",
+                  "title_line1": "Wedding",
+                  "title_line2": "Photography",
+                  "image": "/img/services/wedding.webp"
+                },
+                {
+                  "id": 2,
+                  "title": "Family Photography",
+                  "title_line1": "Family",
+                  "title_line2": "Photography",
+                  "image": "/img/services/family.webp"
+                },
+                {
+                  "id": 3,
+                  "title": "Pre-Wedding Photography",
+                  "title_line1": "Pre-Wedding",
+                  "title_line2": "Photography",
+                  "image": "/img/services/prewedding.webp"
+                },
+                {
+                  "id": 4,
+                  "title": "Maternity Photography",
+                  "title_line1": "Maternity",
+                  "title_line2": "Photography",
+                  "image": "/img/services/maternity.webp"
+                },
+                {
+                  "id": 5,
+                  "title": "Newborn Photography",
+                  "title_line1": "Newborn",
+                  "title_line2": "Photography",
+                  "image": "/img/services/newborn.webp"
+                },
+                {
+                  "id": 6,
+                  "title": "Event Photography",
+                  "title_line1": "Event",
+                  "title_line2": "Photography",
+                  "image": "/img/services/event.webp"
+                }
+              ]
+            },
+            "portfolio": {
+              "id": "portfolio",
+              "title_start": "Our",
+              "title_highlight": "Portfolio",
+              "subtitle": "A glimpse of our work capturing real emotions, candid moments, and timeless stories.",
+              "categories": [
+                "All",
+                "Wedding",
+                "Pre-Wedding",
+                "Family",
+                "Maternity",
+                "Newborn",
+                "Event"
+              ],
+              "items": [
+                {
+                  "id": 1,
+                  "title": "Golden Wedding Embrace",
+                  "category": "Wedding",
+                  "image": "/img/portfolio/wedding-bride.webp"
+                },
+                {
+                  "id": 2,
+                  "title": "Italian Vacation Romance",
+                  "category": "Pre-Wedding",
+                  "image": "/img/portfolio/vacation-couple.webp"
+                },
+                {
+                  "id": 3,
+                  "title": "Joyful Family Portrait",
+                  "category": "Family",
+                  "image": "/img/portfolio/family-portrait.webp"
+                },
+                {
+                  "id": 4,
+                  "title": "Sunlit Maternity Glow",
+                  "category": "Maternity",
+                  "image": "/img/services/maternity.webp"
+                },
+                {
+                  "id": 5,
+                  "title": "Dreamy Newborn Slumber",
+                  "category": "Newborn",
+                  "image": "/img/services/newborn.webp"
+                },
+                {
+                  "id": 6,
+                  "title": "Sunset Beach Silhouette",
+                  "category": "Pre-Wedding",
+                  "image": "/img/portfolio/sunset-silhouette.webp"
+                },
+                {
+                  "id": 7,
+                  "title": "Candlelit Evening Reception",
+                  "category": "Event",
+                  "image": "/img/portfolio/ceremony-reception.webp"
+                },
+                {
+                  "id": 8,
+                  "title": "Diamond Wedding Bands",
+                  "category": "Wedding",
+                  "image": "/img/portfolio/rings-macro.webp"
+                }
+              ]
+            },
+            "testimonials": {
+              "id": "testimonials",
+              "title_start": "Testi",
+              "title_highlight": "monials",
+              "subtitle": "What Our Clients Say",
+              "auto_slide_interval": 5000,
+              "items": [
+                {
+                  "id": 1,
+                  "author": "Priya & Rahul",
+                  "role": "Wedding Client",
+                  "quote": "Absolutely amazing experience! The team made us feel so comfortable, and the photos turned out beyond beautiful. They truly captured the emotions and spirit of our special day.",
+                  "image": "/img/testimonials/couple-hill.webp"
+                },
+                {
+                  "id": 2,
+                  "author": "Ananya & Vikram",
+                  "role": "Pre-Wedding Client",
+                  "quote": "Every single frame captured was pure poetry. The lighting, natural expressions, and candid storytelling exceeded all our dreams. We will treasure these memories forever!",
+                  "image": "/img/testimonials/vacation-couple.webp"
+                },
+                {
+                  "id": 3,
+                  "author": "Sneha & Rohan",
+                  "role": "Wedding Client",
+                  "quote": "From our very first conversation to receiving our luxury album, working with the team was effortless and delightful. Their artistic vision and passion are unmatched!",
+                  "image": "/img/testimonials/wedding-couple.webp"
+                }
+              ]
+            },
+            "faq": {
+              "id": "faq",
+              "eyebrow": "FREQUENTLY ASKED",
+              "title": "Questions",
+              "subtitle": "Got questions? We've got answers. Here's everything you need to know.",
+              "image_main": "/img/faq/wedding-couple.webp",
+              "image_polaroid": "/img/faq/bridal-bouquet.webp",
+              "items": [
+                {
+                  "question": "What photography services do you provide?",
+                  "answer": "We offer comprehensive professional photography services including weddings, pre-wedding shoots, family portraits, maternity, newborn, special events, and commercial brand projects."
+                },
+                {
+                  "question": "How far in advance should we book our session?",
+                  "answer": "For weddings and large events, we recommend booking 6 to 12 months in advance. For portrait, family, and newborn sessions, 3 to 6 weeks is usually sufficient."
+                },
+                {
+                  "question": "Do you travel for destination weddings?",
+                  "answer": "Yes, absolutely! We love destination weddings and travel worldwide to document your special love stories wherever they take place."
+                },
+                {
+                  "question": "How long does it take to receive our final photos?",
+                  "answer": "Full wedding galleries are delivered within 4 to 6 weeks with a sneak peek provided within 72 hours. Portrait and family sessions are delivered in 2 to 3 weeks."
+                },
+                {
+                  "question": "Can we request specific shots or a custom package?",
+                  "answer": "Yes, of course! We encourage sharing your Pinterest boards, shot lists, or special ideas. We will happily tailor a custom package that matches your exact timeline and budget."
+                }
+              ]
+            },
+            "contact": {
+              "id": "contact",
+              "title_start": "Send Us a",
+              "title_highlight": "Message",
+              "subtitle": "Your satisfaction is our top priority, and we are committed to providing exceptional service and support.",
+              "map_image": "/img/contact/map.webp",
+              "name_label": "Your Name",
+              "name_placeholder": "Enter Your Name",
+              "email_label": "Email",
+              "email_placeholder": "Enter Your Email",
+              "phone_label": "Phone Number",
+              "phone_placeholder": "Enter Your Phone Number",
+              "service_label": "Service Interested In",
+              "service_placeholder": "Select Service",
+              "service_options": [
+                "Wedding Photography",
+                "Pre-Wedding Shoot",
+                "Family Portrait",
+                "Maternity Session",
+                "Newborn Photography",
+                "Event Coverage",
+                "Commercial Brand Shoot"
+              ],
+              "description_label": "Description",
+              "description_placeholder": "Write Your Message",
+              "button_text": "Send Message",
+              "success_title": "Message Sent Successfully!",
+              "success_message": "Thank you for reaching out! Our team will get back to you within 24 hours.",
+              "info_cards": [
+                {
+                  "title": "Our Location",
+                  "text": "123 Education Lane, New York, NY 10001",
+                  "icon": "map-pin"
+                },
+                {
+                  "title": "Call Us",
+                  "text": "+100000000000",
+                  "href": "tel:+100000000000",
+                  "icon": "phone"
+                },
+                {
+                  "title": "Email Us",
+                  "text": "info@xyz.com",
+                  "href": "mailto:info@xyz.com",
+                  "icon": "mail"
+                },
+                {
+                  "title": "Google Map",
+                  "text": "Find Us on Google Maps",
+                  "href": "https://maps.google.com/?q=123+Education+Lane,+New+York,+NY+10001",
+                  "icon": "map",
+                  "external": true
+                }
+              ],
+              "map_address": "123 Education Lane, New York, NY 10001",
+              "map_embed_url": "https://maps.google.com/maps?q=123+Education+Lane,+New+York,+NY+10001&t=&z=14&ie=UTF8&iwloc=&output=embed",
+              "reset_button_text": "Send Another Message"
+            }
+          }
+        }
+      }
+    }
+  }
+}
